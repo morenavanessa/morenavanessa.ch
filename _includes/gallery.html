@@ -1,0 +1,23 @@
+<section class="wrapper style1 align-center">
+    <div class="inner">
+        <h2>
+            <div class="circle-icon">
+                <a href="#" class="icon brands style2 fa-instagram"></a>
+            </div>
+            Gallery
+        </h2>
+        <p>Check out the latest posts from Alessia Valentina's Instagram.</p>
+    </div>
+
+    <div id="instagram-gallery" class="gallery style2 medium lightbox onscroll-fade-in">
+        {% for image in site.static_files %}
+            {% if image.path contains 'assets/instagram_images' %}
+                <article>
+                    <a href="{{ image.path | relative_url }}" class="image">
+                        <img src="{{ image.path | relative_url }}" alt="" />
+                    </a>
+                </article>
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
