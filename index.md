@@ -54,7 +54,7 @@ title: Morena Vanessa's Triathlon Journey
     <!-- Footer -->
     <footer class="wrapper style1 align-center">
         <div class="inner">
-            <p>&copy; 2024 alessiavalentina.ch | a <a href="https://html5up.net">html5up</a> theme</p>
+            <p>&copy; 2024 morenavanessa.ch | a <a href="https://html5up.net">html5up</a> theme</p>
         </div>
     </footer>
 
