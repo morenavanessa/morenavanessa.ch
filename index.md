@@ -10,16 +10,16 @@ title: Morena Vanessa's Triathlon Journey
     {% include banner.html %}
 
     <!-- Spotlight -->
-    {% include spotlight.html %}
+    <!-- {% include spotlight.html %} -->
 
     <!-- Gallery -->
-    {% include gallery.html %}
+    <!-- {% include gallery.html %} -->
 
     <!-- Contact -->
-    <section class="wrapper style1 align-center">
+    <section class="wrapper style1 align-center" id="contact">
         <div class="inner medium">
             <h2>Get in touch</h2>
-            <form method="post" action="#">
+            <form action="https://formspree.io/f/mpwaavkl" method="POST">
                 <div class="fields">
                     <div class="field half">
                         <label for="name">Name</label>
@@ -46,7 +46,7 @@ title: Morena Vanessa's Triathlon Journey
     <div class="inner">
         <h2>Follow</h2>
             <ul class="icons">
-                <li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="https://instagram.com/morenavanessa.ch" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
             </ul>
     </div>
     </section>
