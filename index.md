@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Alessia Valentina's Figure Skating Journey
+title: Morena Vanessa's Triathlon Journey
 ---
 
 <!-- Wrapper -->
